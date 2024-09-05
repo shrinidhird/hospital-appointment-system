@@ -1,0 +1,66 @@
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/906/948/large_2x/doctor-with-stethoscope-in-hand-on-hospital-background-photo.jpg');
+}
+
+.container {
+	width: 300px;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 50px auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button{
+	background-color: #a04caf;
+	color: #fff;
+	padding: 20px 40px; /* Increased padding to make button bigger */
+	font-size: 18px; /* Increased font size to make button text bigger */
+	border: none;
+	border-radius: 10px; /* Increased border radius to make button corners more rounded */
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out; /* Added transition effect for hover */
+}
+
+button:hover {
+	background-color: #3e8b8e; /* Darker green color on hover */
+	transform: scale(1.1); /* Slightly increase button size on hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect on hover */
+}
+
+.signup{
+    width: 30%;
+  height: 30px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.signup button:hover{
+    background-color: #efe6e6;
+}
